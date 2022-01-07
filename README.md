@@ -43,10 +43,11 @@ function from empirical data. See section Solve.
  
 ## How to build 
 
-Clone this repo. Make build.sh executable:
+Make build.sh executable
 ```sh
 chmod +x build.sh
 ```
+run build.sh
 
 ```sh
 ./build.sh
@@ -54,12 +55,14 @@ chmod +x build.sh
 
 ## How to run
 
-See User Guide
+For specifics of the artill library refer to the user guide.
 
 
 ## Purpose of this Repository
 
 Provide a simple Jupyter Notebook that diplays ballistic trajectories of projectiles. 
+
+Make a simplier user interface of the the Artill repository.
 
 This repository is a clean fork of Oleg Mazonka's C++ library Artill. I decided to make a clean upload with a simple Jupyter Notebook as a simple user interface in order to improve the user experience of this repository. 
 
