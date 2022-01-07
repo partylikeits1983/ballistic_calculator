@@ -1,5 +1,4 @@
 #!/bin/bash
-
 cd src
 cd dlad
 make
