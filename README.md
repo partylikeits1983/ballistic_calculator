@@ -29,6 +29,18 @@ diameter, length; and muzzle velocity.
 2. Define drag coefficient function. If the function 
 is not known, there is an option to generate this 
 function from empirical data. See section Solve.
+
+## Included in the model
+
+3D trajectory
+Earth’s curvature
+Altitude: air density and temperature
+Range and cross wind
+Air turbulence
+
+
+
+---------------------------
  
 ## How to build 
 
