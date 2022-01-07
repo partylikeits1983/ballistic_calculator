@@ -12,7 +12,7 @@ on [Dlib](http://dlib.net/) that is included in sources
 ## What can you do with this program
 
 3. Run ballistic trajectories with different options: 
-wind, air turbulences, initial height above the Earth’s surface;
+wind, air turbulences, initial height above the Earthï¿½s surface;
 even send to space or orbit around the Earth.
 4. Solve for ranges or max - the programs finds 
 the angles (for both flat and high trajectories) for a given range.
@@ -28,41 +28,25 @@ function from empirical data. See section Solve.
  
 ## How to build 
 
-### Automatic build
-
-First, check out `src` directory. Build `dlad` and build `drag`. If you have `make`, type `make` and it should build. As a direct option use `make PLAT=w` for Windows or `make PLAT=u` for Unix builds. If you do not have `make`, then build manually.
-
-### Unix manual build 
-
-1. Unpack `dlib.tar.bz2`
-2. Place `dlib` directory inside `dlad`.
-3. Compile dlibad.cpp, e.g.` g++ -std=c++14 -c dlibad.cpp`
-4. Compile all cpp files (except alglib.cpp, timer_inc.cpp, timer_w.cpp) 
-inside `drag`, e.g. ` g++ -std=c++14 -c -I ../dlad *.cpp`. This example 
-command will actually spits errors on those files not to be compiled – that is fine.
-5. Copy ` dlibad.o` from `dlad` to `drag`
-6. Link all `.o` files, e.g. ` g++ *.o -o drag`
-
-### Windows manual build
-
-If you have gcc installed, then follow Unix build instructions. If you use MS C++ compiler, check its version – it should be 19 or above:
-```
-C:\>cl
-Microsoft (R) C/C++ Optimizing Compiler Version 19.10.24821 for x86
-Copyright (C) Microsoft Corporation.  All rights reserved.
+Clone this repo. Make build.sh executable:
+```sh
+chmod +x build.sh
 ```
 
-1. Unpack `dlib.tar.bz2`
-2. Place `dlib` directory inside `dlad`.
-3. Compile dlibad.cpp, e.g.` cl -EHsc -c dlibad.cpp`
-4. Compile all cpp files (except alglib.cpp, timer_inc.cpp, 
-timer_u.cpp) inside `drag`, e.g. ` cl -EHsc -c -I ../dlad *.cpp`. 
-This example command will actually spits errors on those files not 
-to be compiled – that is fine.
-5. Copy ` dlibad.obj` from `dlad` to `drag`
-6. Link all `.obj` files, e.g. ` cl *.obj /Fedrag`
-
+```sh
+./build.sh
+```
 
 ## How to run
 
 See User Guide
+
+
+## Purpose of this Repository
+
+This repository is a clean fork of Oleg Mazonka's C++ library Artill. I decided to make a clean upload with a simple Jupyter Notebook as a simple user interface in order to improve the user experience of this repository. 
+
+## Acknowledgements:
+
+The C++ portion of this repo was created by Oleg Mazonka
+https://github.com/mazonka/artill
