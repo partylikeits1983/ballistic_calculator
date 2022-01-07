@@ -32,12 +32,11 @@ function from empirical data. See section Solve.
 
 ## Included in the model
 
-3D trajectory
-Earth’s curvature
-Altitude: air density and temperature
-Range and cross wind
-Air turbulence
-
+1. 3D trajectory
+2. Earth’s curvature
+3. Altitude: air density and temperature
+4. Range and cross wind
+5. Air turbulence
 
 
 ---------------------------
