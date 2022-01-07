@@ -1,4 +1,4 @@
-# C++ Ballistic Calculator
+# Ballistic Trajectory Calculator
 
 This program implements the external ballistic 
 model described 
