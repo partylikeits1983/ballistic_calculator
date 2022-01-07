@@ -7,6 +7,9 @@ in [this paper](https://github.com/mazonka/artill/raw/master/drag_anziam.pdf).
 The program is written in standard C++ with 
 one library dependency on [Dlib](http://dlib.net/) that is included.
 
+![](range.png)
+
+
 ## What can you do with this program
 
 1. Run ballistic trajectories with different options: 
