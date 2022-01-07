@@ -8,7 +8,7 @@ The program is written in standard C++ with
 one library dependency on [Dlib](http://dlib.net/) that is included.
 
 --------------------------------
-#### Trajectory of a 7.62 AK-47 round shot at 45&deg; at sea level (59&deg;F @ surface level).
+#### Trajectory of a 7.62 AK-47 round shot at 45&deg; at sea level (59&deg;F).
 
 ![](range.jpeg)
 
