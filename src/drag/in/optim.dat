@@ -1,0 +1,15 @@
+# this is an optimisation plan
+# each line represents an optimisation scenario
+# each positive number in the line represents 
+# the smoother coefficient in the optimisation
+# optimisation works sequentially for each number and
+# sequentially (or in parallel if implemented) for each scenario
+# the scenario with the best result wins
+# negative value sets the number of function evaluations for
+# the current scenario
+
+-400 1000  10 1 0.1 -1000 1 -100 10 -1000 1 -5000 0.1
+-400 100   10 1 0.1 -1000 1 -100 10 -1000 1 -5000 0.1
+-400 10000 10 1 0.1 -1000 1 -100 10 -1000 1 -5000 0.1
+
+
