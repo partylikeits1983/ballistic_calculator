@@ -7,6 +7,8 @@ in [this paper](https://github.com/mazonka/artill/raw/master/drag_anziam.pdf).
 The program is written in standard C++ with 
 one library dependency on [Dlib](http://dlib.net/) that is included.
 
+Simple Jupyter Notebook interface.
+
 --------------------------------
 #### Trajectory of a 7.62 AK-47 round shot at 45&deg; at sea level (59&deg;F).
 
@@ -17,12 +19,12 @@ one library dependency on [Dlib](http://dlib.net/) that is included.
 
 1. Run ballistic trajectories with different options: 
 wind, air turbulences, initial height above the Earth's surface;
-even send to space or orbit around the Earth.
+even send projectiles to space or orbit around Earth.
 
 2. Solve for ranges or max - the programs finds 
 the angles (for both flat and high trajectories) for a given range.
 
-3. Tune the drag coefficient function given some firing table data.
+3. Fine tune the drag coefficient function given some firing table data.
 
 In order to do this you must:
 
